@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "8a839f7a-629d-4bd9-b6ec-3522f882985b",
+		"name": "WhereIsFood",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getItems",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/v1.0/restuarnts?cityname=kolkata&mealtype=Biriyani",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1.0",
+						"restuarnts"
+					],
+					"query": [
+						{
+							"key": "cityname",
+							"value": "kolkata"
+						},
+						{
+							"key": "mealtype",
+							"value": "Biriyani"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -17,7 +17,7 @@ app.logger.setLevel(10)
 api = Api(app)
 
 # File Paths
-CONFIGURATION_FILE_PATH = '../config/config.ini'
+CONFIGURATION_FILE_PATH = './config/config.ini'
 
 if not os.path.isfile(CONFIGURATION_FILE_PATH):
     print("""
